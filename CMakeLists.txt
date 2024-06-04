@@ -22,7 +22,7 @@ find_package(OpenCV REQUIRED)
 include_directories(${catkin_INCLUDE_DIRS})
 
 catkin_package(
-  INCLUDE_DIRS include
+  INCLUDE_DIRS 
   LIBRARIES opencv
 )
 
