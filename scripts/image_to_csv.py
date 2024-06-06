@@ -141,7 +141,7 @@ def main():
     rospy.init_node('image_click', anonymous=True)
     rospack = rospkg.RosPack()
     csv_file = rospack.get_path('node_link_generator')+'/points.csv'
-    yaml_file = rospack.get_path('node_link_generator')+'/map_test.yaml'
+    yaml_file = rospack.get_path('node_link_generator')+'/map_final.yaml'
 
     image_click = ImageClick(csv_file, yaml_file)
     if not os.path.exists(csv_file):
